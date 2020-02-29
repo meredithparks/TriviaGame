@@ -2,17 +2,12 @@
 	border: 1px solid black;
   border-radius: 5%;
 	width: 40%;
-	color: black;
+	color: white;
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
-  background-color: white;
+  background-color: black;
 
-}
-
-img {
-  max-height: 250px;
-  width: auto;
 }
 
 #answerblock {
@@ -57,8 +52,10 @@ h2, h4 {
 
 .wrapper {
   margin: 10px auto;
-  background-color: salmon;
   height: 500px;
+  background-image: url("../images/lights.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
   width: 60%;
   text-align: center;
 }
@@ -66,6 +63,12 @@ h2, h4 {
 .btn {
   background-color: black;
   color:white;
+  border: transparent;
   position: relative;
   bottom: -150px;
+  border-radius: 50%;
+}
+.btn:hover{
+  background-color: pink;
+
 }
