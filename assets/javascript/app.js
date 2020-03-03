@@ -4,41 +4,49 @@ $(document).ready(function () {
             question: "How many installments have there been in the U.S.?", 
             choice: ["5", "6", "7", "8"],
             answer: 2,
+            photo: "assets/images/rh.jpeg"
          },
          {
              question: "Who is considered the OG of the RH franchise?", 
             choice: ["NeNe", "Vicki", "Ramona", "Lisa V."],
             answer: 1,
+            photo: "assets/images/nene.jpeg"
          }, 
          {
              question: "What prosthetic body part did Aviva infamously throw on RHONY?", 
             choice: ["Arm", "Leg", "Hand", "Foot" ],
             answer: 1,
+            photo: "assets/images/leg.jpeg"
         }, 
         {
             question: "Which lady has Heather on RHONY NOT fought with?", 
             choice: ["Ramona", "Bethanny", "Luanne", "Carole" ],
             answer: 3,
+            photo: "assets/images/carole.jpeg"
         }, 
         {
             question: "Which housewife has a full on supermodel for a daughter?", 
             choice: ["Lisa V.", "Kyle", "Ramona", "Yolanda" ],
             answer: 3,
+            photo: "assets/images/yolanda.jpeg"
         }, 
         {
             question: "What did Teresa G. accuse her sister-in-law Melissa of?", 
             choice: ["Being a stripper", "Being a Gold-Digger", "Copying everything she does", "All of the above" ],
             answer: 3,
+            photo: "assets/images/tre.jpeg"
         }, 
         {
             question: "Which housewife had the tagline: I never carry a grudge, It won't match my shoes.?", 
             choice: ["Stephanie Hollman", "Bethanny", "NeNe", "Sonja" ],
             answer: 0,
+            photo: "assets/images/stephanie.jpeg"
         }, 
         {
             question: "Which housewife had the tagline: These days, I don't throw punches. I roll with them.?", 
             choice: ["Teresa", "Sonja", "Kandi", "Monique" ],
             answer: 0,
+            photo: "assets/images/teresa.jpeg"
         }];
     
     var correctCount = 0;
